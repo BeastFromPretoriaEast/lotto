@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'VT323', monospace;
+}
+
+.zero_height {
+    height: 0px;
+}
+
+body {
+    background-image: url("../img/body_bg.jpg");
+    background-color: #223f62;
+    margin-top: 80px;
+}
+
+.stats {
+    background-image: none;
+}
+
+.round-top-corners {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.container.body {
+    background-image: url("../img/bg.png");
+    background-color: #fff;
+    -webkit-box-shadow:0 0 20px green;
+    -moz-box-shadow: 0 0 20px green;
+    box-shadow:0 0 20px green;
+}
+
+.navbar {
+    -webkit-box-shadow:0 0 20px purple;
+    -moz-box-shadow: 0 0 20px purple;
+    box-shadow:0 0 20px purple;
+}
+
+.free_lucky_dip {
+    background: #fff8f4 url("../img/free_lucky_dip.png") center center no-repeat;
+    color: goldenrod;
+    text-transform: uppercase;
+}
+
+table {
+    margin: auto;
+    font-family: 'VT323' !important;
+    font-size: 1.1em;
+    width: auto !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 div {
+    display: inline-flex;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    margin-right: 7px;
+    margin-left: 7px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: white;
+    background-color: green;
+ }
+
+.bonus-ball {
+    background-color: purple;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    border: 1px dashed lightpink;
+    background: #fff8f4 url("../img/lotto_num_bg.png") center center no-repeat;
+}
+tr td:first-child {
+    border-left: 1px solid lightpink !important;
+}
+
+tr td:nth-child(6){
+    border-right: 1px solid lightpink !important;
+}
+
+tr:last-child {
+    border-bottom: 1px solid lightpink !important;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    border: 1px dashed lightpink !important;
+    background: #fff8f4 url("../img/lotto_num_bg.png") center center no-repeat;
+}
+
+header {
+    background-color: #0a2748;
+}
+
+th {
+    vertical-align:bottom !important;
+    text-align:center;
+    border: 1px solid lightpink !important;
+    background: #fff8f4 url("../img/lotto_ticket_header.png") center center no-repeat;
+    height: 90px;
+    padding: 2px !important;
+    font-weight: normal;
+}
+
+td div {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.highlight {
+    background-color: green;
+    color: white;
+}
+
+.highlight_bonus_ball {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.highlight_bg {
+    background-color: #edf6ed;
+}
+
+.profit {
+    color: green;
+    text-weight: bold;
+    font-style: italic;
+}
+
+.loss {
+    color: red;
+    text-weight: bold;
+    font-style: italic;
+}
+
+.row_won {
+    color: goldenrod;
+    background-color: white;
+    background-image: none !important;
+}
+
+/*aaa*/
+
+
+
+.icon-home:after { content: "\2302"; }
+.icon-cog:after { content: "\2699"; }
+.icon-cw:after { content: "\27f3"; }
+.icon-location:after { content: "\e724"; }
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: #DD6C4F;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+.page-wrap {
+    width: 960px;
+    margin: 80px auto;
+}
+
+.winning_top_numbers {
+    list-style: none;
+    text-align: center;
+}
+
+.winning_top_numbers li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+    border: none;
+    background-color: #0a2748;
+}
+
+.winning_top_numbers li:before {
+    content: "";
+    display: block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+
+.winning_top_numbers span {
+    display: block;
+    background-color: green;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(lightgreen), to(green));
+    background-image: -webkit-linear-gradient(top, lightgreen, green);
+    background-image: -moz-linear-gradient(top, lightgreen, green);
+    background-image: -ms-linear-gradient(top, lightgreen, green);
+    background-image: -o-linear-gradient(top, lightgreen, green);
+    color: #a7a7a7;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+    color: white;
+    font-size: 3em;
+}
+
+.winning_top_numbers span.bonus-ball {
+    background-color: rebeccapurple;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(mediumpurple), to(rebeccapurple));
+    background-image: -webkit-linear-gradient(top,mediumpurple, rebeccapurple);
+    background-image: -moz-linear-gradient(top, mediumpurple, rebeccapurple);
+    background-image: -ms-linear-gradient(top, mediumpurple, rebeccapurple);
+    background-image: -o-linear-gradient(top, mediumpurple, rebeccapurple);
+}
+
+.winning_top_numbers a:before {
+    content: "";
+    display: block;
+    background: #fff;
+    border-top: 2px solid #ddd;
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    bottom: -18px;
+    right: -18px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: inset 0px 8px 48px #ddd;
+}
+
+.winning_top_numbers a:hover {
+    text-decoration: none;
+    color: #555;
+    background: #f5f5f5;
+}
+
+.navbar-inverse {
+    background-color: #0a2748;
+    border-color: #0a2748;
+    z-index: 999999;
+}
